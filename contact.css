@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:#f2f3f7;
+   }
+
+
+
+
+.contact{
+ margin-top:40px;
+text-align: center;
+width: 100%;}
+
+.contact2{display:flex;
+justify-content: center;
+position: relative;
+text-align: center;
+}
+
+h1{
+    color: #004332;
+    font-family:serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+p{
+    color: #004332;
+    font-family:serif;
+    letter-spacing:2px;
+    line-height: 45px;
+}
+
+form ,input,label,textarea,option{
+    font-family: serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color:#436851;
+    line-height: 50px;
+    transition:  all 0.5s ease;
+   
+
+}
+input,select,textarea{
+    border: 2px solid rgba(0, 67, 50, 0.5); 
+    width: 200px;
+    border-radius:10px ;
+    color: #436851;
+    height: 30px;
+   
+   }
+
+   textarea{
+    height: 100px;
+    width: 500px;
+   }
+  select option{
+    font-size: 14px;
+   }
+   select{
+    width: 240px;
+    height: 35px;
+    text-align: center;
+    transition:  all 0.5s ease;
+     appearance: none;
+   }
+   button{
+    text-align: center;
+    width:100px ;
+    padding: 10px;
+    border-radius: 50px;
+    color: #436851;
+    border: rgba(0, 67, 50, 0.5) solid 2px;
+    background-color: transparent;
+    font-family:serif;
+    font-size:  15px;
+    cursor: pointer;
+    transition: all 1s ease;
+  
+ }
+ button:hover{
+    background-color:rgba(0, 67, 50, 0.5) ;
+ }
+
+
+ ::-webkit-scrollbar{
+    background-color: transparent;
+    width:12px;
+    border: 2px solid white;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgba(0, 67, 50, 0.5) ,#004332);
+    border-radius:100px;
+}
